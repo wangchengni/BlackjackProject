@@ -9,6 +9,7 @@ public class CardTest {
     
     for(Suit s : Suit.values()){
       System.out.println(s);
+      
      if(s.equals(Suit.HEARTS)) {
     	 System.out.println("Happy \u2665\uFE0F day!");
      }

@@ -22,9 +22,13 @@ public class Deck {
 		return deck.size();
 	}
 	public Card dealCard() { 
+		
 		return deck.remove(0);
 	}
 	public void shuffle() {
 		Collections.shuffle(deck);
+	}
+	public void dealCard(Hand hand) {
+//		hand = deck.remove(0);
 	}
 }
