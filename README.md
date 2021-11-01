@@ -1,6 +1,7 @@
 #BlackJackProject
 
 ##Description
+I put my code inside the Dealing.java, as I tried to create a new class, it always run this Dealing file.
 I used a lot of if statement to loop all the conditions for the user to compare with the dealer.
 The most tricky way is that user may have so many small numbers cards and they can ask a lot of hit
 option, then, inside these hit option, I also need to consider whether they choose stand during these stand, or
