@@ -29,6 +29,6 @@ public class Deck {
 		Collections.shuffle(deck);
 	}
 	public void dealCard(Hand hand) {
-//		hand = deck.remove(0);
+		hand.addCard(deck.remove(0));
 	}
 }
